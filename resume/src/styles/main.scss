@@ -1,0 +1,40 @@
+.main {
+  background-color: #725f5f;
+  height: 100vh;
+
+  .linksContainer {
+    padding-top: calc((82vh - 560px) / 2);
+    height: 100vh;
+    width: 10vw;
+    list-style: none;
+
+    li {
+      margin-bottom: calc(3vh);
+      margin-left: 8vw;
+
+      .link {
+        text-decoration: none;
+        color: #5f91b300;
+        line-height: 80px;
+
+        &:hover {
+          color: #5f92b3;
+          font-size: 40px;
+          text-shadow: 0 0 5px #000;
+        }
+
+        &::before {
+          position: absolute;
+          left: 5vw;
+          display: block;
+          content: '';
+          width: 80px;
+          height: 80px;
+          border-radius: 40px;
+          background-color: #5f92b3;
+          box-shadow: 0 0 10px 1px black;
+        }
+      }
+    }
+  }
+}
