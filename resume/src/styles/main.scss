@@ -1,5 +1,5 @@
 .main {
-  background-color: #725f5f;
+  background: linear-gradient(180deg, #1e1e1e, #085653);
   height: 100vh;
 
   .linksContainer {
@@ -31,8 +31,9 @@
           width: 80px;
           height: 80px;
           border-radius: 40px;
-          background-color: #5f92b3;
-          box-shadow: 0 0 10px 1px black;
+          border: #c6f0f9 solid 4px;
+          // background-color: #5f92b3;
+          // box-shadow: 0 0 10px 1px black;
         }
       }
     }

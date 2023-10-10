@@ -1,8 +1,27 @@
 .home {
-  background-color: #a01919;
+  // background-color: #a01919;
+  border: #c6f0f9 solid 4px;
+  border-radius: 2vh;
   position: absolute;
   right: 10vw;
   bottom: 10vh;
   width: 50vw;
   height: 30vh;
+  padding: 1vh;
+  font-size: 24px;
+  color: #c6f0f9;
+
+  &div {
+    display: inline-block;
+  }
+}
+
+.photo {
+  position: absolute;
+  bottom: 55vh;
+  right: 20vw;
+  border: #c6f0f9 solid 4px;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 15vh;
 }
