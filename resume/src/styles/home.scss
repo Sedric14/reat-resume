@@ -1,4 +1,4 @@
-.home {
+.about {
   // background-color: #a01919;
   border: #c6f0f9 solid 4px;
   border-radius: 2vh;
@@ -16,6 +16,17 @@
   }
 }
 
+.home {
+  position: absolute;
+  right: 40vw;
+  bottom: 30vh;
+  width: 50vw;
+  height: 30vh;
+  font-size: 40px;
+  color: #c6f0f9;
+  text-align: right;
+}
+
 .photo {
   position: absolute;
   bottom: 55vh;
@@ -24,4 +35,8 @@
   width: 30vh;
   height: 30vh;
   border-radius: 15vh;
+}
+
+.homePhoto {
+  bottom: 40vh;
 }

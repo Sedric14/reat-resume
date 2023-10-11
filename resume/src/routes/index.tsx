@@ -2,9 +2,10 @@ import React, { FunctionComponent, lazy, Suspense } from 'react';
 import { Spin } from 'antd';
 import { Routes, Route } from 'react-router-dom';
 
-import Home from './Home/home';
+import Home from './home';
+import Skills from './skills';
 
-const About = lazy(() => import('./About/about'));
+const About = lazy(() => import('./about'));
 
 const Router: FunctionComponent = () => (
   <Routes>
@@ -17,6 +18,7 @@ const Router: FunctionComponent = () => (
         </Suspense>
       }
     />
+    <Route path="skills" element={<Skills />} />
   </Routes>
 );
 

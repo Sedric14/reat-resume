@@ -37,9 +37,16 @@ const App = () => (
         </Link>
       </li>
       <li>
-        <Link to="/download" className="link">
+        <a
+          href="https://raw.githubusercontent.com/Sedric14/assets/main/wallpaper.jpg"
+          download
+          className="link"
+        >
           Download
-        </Link>
+        </a>
+        {/* <Link to="/download" className="link">
+          Download
+        </Link> */}
       </li>
     </ul>
     <Router />
