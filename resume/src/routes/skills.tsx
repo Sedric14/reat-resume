@@ -1,5 +1,5 @@
 import React from 'react';
-import aba from '../assets/aba';
+import aba from '../assets/data';
 
 const Skills = () => {
   const tgs = aba[2].tags as string[];

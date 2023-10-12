@@ -8,7 +8,22 @@ const aba = [
     tags1: ['HTML', 'CSS', 'SASS', 'Git', 'Figma', 'Webpack'],
     tags2: ['Vite', 'Jest', 'Cypress', 'Eslint', 'GraphQL', 'MUI'],
   },
-  // 'JavaScript', 'TypeScript', 'Java', 'React', 'Redux', 'HTML', 'CSS', 'SASS', 'Git', 'Figma', 'Webpack', 'Vite', 'Jest', 'Cypress', 'Eslint', 'GraphQL', 'MUI',
+  {
+    screens: [
+      'https://raw.githubusercontent.com/Sedric14/assets/main/screenshot/1.png',
+      'https://raw.githubusercontent.com/Sedric14/assets/main/screenshot/2.png',
+      'https://raw.githubusercontent.com/Sedric14/assets/main/screenshot/3.png',
+      'https://raw.githubusercontent.com/Sedric14/assets/main/screenshot/4.png',
+      'https://raw.githubusercontent.com/Sedric14/assets/main/screenshot/5.png',
+      'https://raw.githubusercontent.com/Sedric14/assets/main/screenshot/6.png',
+      'https://raw.githubusercontent.com/Sedric14/assets/main/screenshot/7.png',
+      'https://raw.githubusercontent.com/Sedric14/assets/main/screenshot/8.png',
+    ],
+    arr: [
+      'Cooperation in the development of a mobile application for an online auction (front-end) 1) development and implementation of the application interface.\n2) optimization and processing of received and sent data.',
+      'Development of an online store for pet supplies (front-end) 1) development and implementation of the application interface. 2) filtering and sorting of goods. 3) creation of a database of goods',
+    ],
+  },
   // 'Cooperation in the development of a mobile application for an online auction (front-end) 1) development and implementation of the application interface.\n2) optimization and processing of received and sent data. Development of an online store for pet supplies (front-end) 1) development and implementation of the application interface. 2) filtering and sorting of goods. 3) creation of a database of goods',
   // 'Java Programming Учебное заведение: KHNURE Дата окончания: 2017 год Период обучения: 6 months Frontend develop Учебное заведение: RSSchool Дата окончания: 2023 год Период обучения: 9 months React Учебное заведение: RSSchool Дата окончания: 2023 год Период обучения: 3 months',
   // 'Phone: +380507304181 \nEmail: sedricgreen6@gmail.com',

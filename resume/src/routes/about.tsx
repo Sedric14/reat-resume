@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import aba from '../assets/aba';
+import aba from '../assets/data';
 
 const About = () => {
   const [subtitle, setSubtitle] = useState(' ');

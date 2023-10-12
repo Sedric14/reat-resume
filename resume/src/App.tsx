@@ -38,7 +38,7 @@ const App = () => (
       </li>
       <li>
         <a
-          href="https://raw.githubusercontent.com/Sedric14/assets/main/wallpaper.jpg"
+          href="https://raw.githubusercontent.com/Sedric14/assets/main/Sadrytskiy Oleh.pdf"
           download
           className="link"
         >

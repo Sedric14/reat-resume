@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Home from './home';
 import Skills from './skills';
+import Experience from './experience';
 
 const About = lazy(() => import('./about'));
 
@@ -19,6 +20,14 @@ const Router: FunctionComponent = () => (
       }
     />
     <Route path="skills" element={<Skills />} />
+    <Route
+      path="experience"
+      element={
+        <Suspense fallback={<Spin />}>
+          <Experience />
+        </Suspense>
+      }
+    />
   </Routes>
 );
 
