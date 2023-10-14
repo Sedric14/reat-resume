@@ -1,0 +1,28 @@
+.education {
+
+  .sert1,
+  .sert2,
+  .sert3 {
+    position: absolute;
+    width: 35vw;
+    box-shadow: 0 0 10px 1px black;
+    // border: 1px solid aqua;
+    // top: 0;
+    // right: 0;
+  }
+
+  .sert1 {
+    top: 18vh;
+    left: 15vw;
+  }
+
+  .sert3 {
+    top: 22vh;
+    left: 60vw;
+  }
+
+  .sert2 {
+    top: 40vh;
+    left: 35vw;
+  }
+}

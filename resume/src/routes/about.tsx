@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import aba from '../assets/data';
+import data from '../assets/data';
 
 const About = () => {
   const [subtitle, setSubtitle] = useState(' ');
-  const txt = aba[1].text as string;
+  const txt = data[1].text as string;
   let currentIndex = 0;
 
   useEffect(() => {
@@ -19,6 +19,7 @@ const About = () => {
   }, []);
   return (
     <div>
+      <h2>ABOUT ME</h2>
       <div className="photo"> </div>
       <div className="about">{subtitle}</div>
     </div>

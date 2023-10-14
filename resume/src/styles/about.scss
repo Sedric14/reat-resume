@@ -1,5 +1,16 @@
 .about {
+  // border: #c6f0f9 solid 4px;
+  border-radius: 2vh;
   position: absolute;
-  bottom: 10vh;
   right: 10vw;
+  bottom: 10vh;
+  width: 50vw;
+  height: 30vh;
+  padding: 1vh;
+  font-size: 24px;
+  color: #c6f0f9;
+
+  &div {
+    display: inline-block;
+  }
 }

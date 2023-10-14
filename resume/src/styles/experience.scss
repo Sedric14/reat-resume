@@ -1,6 +1,6 @@
 .expPage {
   position: absolute;
-  top: 0vh;
+  top: 10vh;
   left: 30vh;
   width: 80%;
   height: 80vh;
@@ -8,6 +8,25 @@
   transform-style: preserve-3d;
   transition: 1.5s;
   transform-origin: left bottom;
+
+  .prew,
+  .next {
+    z-index: 10;
+    position: absolute;
+    top: 33vh;
+    background-color: transparent;
+    border: none;
+    color: aqua;
+    font-size: 4vw;
+  }
+
+  .prew {
+    left: 5vw;
+  }
+
+  .next {
+    left: 72.5vw;
+  }
 }
 
 .slider,
@@ -43,8 +62,9 @@
 
 .ground {
   position: absolute;
-  width: 75vw;
-  height: 75vw;
+  // width: 75vw;
+  // height: 75vw;
+  background-color: #ae0c0c6c;
 }
 
 @keyframes spin {
@@ -57,6 +77,25 @@
     -webkit-transform: rotateY(45deg);
     transform: rotateY(45deg);
   }
+}
+
+.expText {
+  position: absolute;
+  justify-content: space-between;
+  display: flex;
+  bottom: 10vh;
+  width: 70vw;
+  left: 19vw;
+}
+
+.expText1,
+.expText2 {
+  padding: 0.5vh;
+  font-size: 20px;
+  width: 33vw;
+  color: aqua;
+  border: 1px solid aqua;
+  border-radius: 5px;
 }
 
 // .expItem7 {

@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './home';
 import Skills from './skills';
 import Experience from './experience';
+import Education from './education';
 
 const About = lazy(() => import('./about'));
 
@@ -28,6 +29,7 @@ const Router: FunctionComponent = () => (
         </Suspense>
       }
     />
+    <Route path="education" element={<Education />} />
   </Routes>
 );
 
